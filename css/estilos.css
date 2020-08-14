@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+h1{
+    /* color: white; */
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    margin: 0;
+}
+
+h1 strong{
+    color: #049173;
+}
+
+.header{
+    background-color: #05AD89;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+
+    left: 0;
+    top: 0;
+
+}
+
+.menu{
+    height: inherit;
+}
+
+.menu ol{
+    display: flex;
+    height: inherit;
+}
+
+.menu ol li{
+    height: inherit;
+}
+
+.menu a{
+    height: inherit;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    align-items: center;
+    padding: 0px 10px;
+}
