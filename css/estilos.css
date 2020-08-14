@@ -21,7 +21,7 @@ h1{
 }
 
 h1 strong{
-    color: #035E4B;
+    color: #024536;
 }
 
 .header{
@@ -63,7 +63,7 @@ h1 strong{
 .hero{
     height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     background: #05AD89;  /* fallback for old browsers */
