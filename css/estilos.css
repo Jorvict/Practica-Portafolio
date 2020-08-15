@@ -1,4 +1,5 @@
 body {
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
 }
 
@@ -10,6 +11,11 @@ ol, ul {
 
 figure{
     margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
 }
 
 h1{
@@ -24,6 +30,14 @@ h1 strong{
     color: #024536;
 }
 
+h2{
+    color: #05AD89;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
 .header{
     background-color: #05AD89;
     color:white;
@@ -31,6 +45,7 @@ h1 strong{
     justify-content: space-between;
     height: 120px;
     align-items: center;
+    font-size: 24px;
 
     /* left: 0; */
     /* top: 0; */
@@ -75,3 +90,51 @@ h1 strong{
     object-fit: cover;
 }
 
+.portfolio{
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 15px;
+
+    padding: 20px;
+
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.project-course,
+.project-date,
+.project-url{
+    margin: 10px 0;
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+.project-image{
+    height: 500px;
+}
