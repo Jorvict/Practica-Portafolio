@@ -135,6 +135,51 @@ h2{
 .project-imageContainer{
     width: 500px;
 }
-.project-image{
-    height: 500px;
+
+.event-list-title{
+    margin-left: 20px;
 }
+
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event{
+    margin:10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-details{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #024536;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
