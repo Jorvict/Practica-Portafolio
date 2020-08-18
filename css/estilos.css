@@ -230,7 +230,7 @@ h2{
     border-radius: 5px;
     border-style: solid;
     padding: 10px 20px 10px 25px;
-    background-image: url('../images/envelope.svg');
+    background-image: url('https://i.imgur.com/017QXSj.png');
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position-y: center;
@@ -262,19 +262,19 @@ h2{
 }
 
 .social-link.twitter{
-    background-image: url('../images/twitter.svg');
+    background-image: url('https://i.imgur.com/E7orQyF.png');
 }
 
 .social-link.facebook{
-    background-image: url('../images/facebook.svg');
+    background-image: url('https://i.imgur.com/mRQcYGt.png');
 }
 
 .social-link.github{
-    background-image: url('../images/github.svg');
+    background-image: url('https://i.imgur.com/4PARSVq.png');
 }
 
 .social-link.instagram{
-    background-image: url('../images/instagram.svg');
+    background-image: url('https://i.imgur.com/5DPx99e.png');
 }
 
 .footer{
