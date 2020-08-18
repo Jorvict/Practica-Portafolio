@@ -239,3 +239,19 @@ h2{
 .social-link.instagram{
     background-image: url('../images/instagram.svg');
 }
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
+}
